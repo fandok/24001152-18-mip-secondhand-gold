@@ -1,8 +1,86 @@
 body {
     margin: 0px;
   }
+ /* section 1 */
 
-  .hero {
+ .hero-bg {
+    width: 1440px;
+    height: 504px;
+    background-color: #F1F3FF;
+    ;
+ }
+
+ .hero-bg-header {
+    width: 1440px;
+    height: 97px;
+    padding-left: 136px;
+    background-color: #F1F3FF;
+ }
+
+ .hero-bg-car {
+    width: 1440px;
+    height: 407px;
+    padding-left: 68px;
+    background-color: #F1F3FF;
+ }
+
+ .car-pict {
+    position: absolute;
+    width: 704px;
+    height: 407px;
+    left: 736px;
+    top: 97px;
+    justify-content: flex-end;
+    align-items: flex-end
+ }
+
+ .blue-block {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+ }
+
+ .header-hero {
+    display: flex;
+    gap: 32px;
+    padding-right: 249px;
+ }
+
+ .flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .type-6 {
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: black;
+    padding-top: 82px;
+}
+
+.type-7 {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    width: 468px;
+    height: 60px;
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+}
+
+.pad-but {
+    padding-top: 16px;
+}
+
+
+ /* section 2 */
+
+  .bg-sec2 {
     background-color: white;
     padding-top: 100px;
     padding-left:206px;
