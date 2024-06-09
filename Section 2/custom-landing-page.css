@@ -1,0 +1,14 @@
+.btn-success {
+    background-color: #5CB85F;
+}
+
+.container {
+    padding-left: 74px;
+}
+
+
+@media screen and (max-width: 500px) {
+.btn-success {
+    background-color: #5CB85F;
+}  
+}
