@@ -1,0 +1,84 @@
+ /*Cari Mobil*/
+
+ .big-frame-cari {
+    position:absolute;
+    width: 1047px;
+    height: 106px;
+    top: 458px;
+    left: 196px;
+    bottom: -500px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px #00000026;
+ }
+
+ .nav-bigframe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .frame-nama-mobil {
+    width: 208px;
+    height: 36px;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 16px;
+    border-style: ridge;
+    border-color: #D0D0D0;
+    display: flex;
+    align-items: center;
+ }
+
+ .type-inside-search {
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 18px;
+ }
+
+ .type-inside-search-b {
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 18px;
+ }
+
+ .type-head-search {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+ }
+
+
+ .frame-kategori {
+    width: 208px;
+    height: 36px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 16px;
+    border-style: ridge;
+    border-color: #D4D4D4;
+    }
+
+ .box-chev {
+    width: 24px;
+    height: 24px;
+ }
+
+ .nav-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
