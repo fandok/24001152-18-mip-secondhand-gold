@@ -1,8 +1,18 @@
+import React from "react";
+import Header from "../Header";
+import Headline from "../Headline";
+import Footer from "../Footer";
 import "./styles.css";
 
 const LandingPage = () => {
   return (
     <>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Headline />
+      </div>
       {/*section 2*/}
       <div>
         <div className="navigation">
@@ -113,7 +123,7 @@ const LandingPage = () => {
             Berbagai review positif dari para pelanggan kami
           </div>
         </div>
-        <div className="flex-frame-sec4">
+        <div className="nav-frame">
           <div className="frame-testi flex-per-frame">
             <div>
               <img src="/landing-page/img_photo.png" alt="img_1" />
@@ -256,6 +266,9 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

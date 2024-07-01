@@ -93,9 +93,7 @@ body {
  .frame-testi {
     width: 619px;
     height: 270px;
-    top: 1652px;
-    left: 410px;
-    gap: 0px;
+    margin: 40px;
     border-radius: 8px ;
     border-style: ridge;
     background-color: #F1F3FF;

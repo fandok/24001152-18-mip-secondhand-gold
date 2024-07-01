@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const Headline = () => {
@@ -15,9 +16,11 @@ const Headline = () => {
             terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
             untuk sewa mobil selama 24 jam.
           </div>
-          <button type="button" className="btn btn-success margin-but">
-            Mulai Sewa Mobil
-          </button>
+          <Link to={"/search"}>
+            <button type="button" className="btn btn-success margin-but">
+              Mulai Sewa Mobil
+            </button>
+          </Link>
         </div>
         <img
           className="car-pict"
