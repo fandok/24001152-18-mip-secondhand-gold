@@ -1,0 +1,104 @@
+.hero {
+   background-color: #F1F3FF;
+   height: 100px;
+} 
+ 
+ /*Cari Mobil*/
+
+ .big-frame-cari {
+    position:absolute;
+    width: 1400px;
+    height: 142px;
+    margin: -50px 196px 0px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px #00000026;
+ }
+
+ .nav-bigframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+ }
+
+ .frame-nama-mobil {
+    width: 210px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 16px;
+    border-style: ridge;
+    border-color: #D0D0D0;
+    display: flex;
+    align-items: center;
+ }
+
+ .type-inside-search {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    color: 
+    #8A8A8A;
+ }
+
+ .type-inside-search-b {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: 
+    #8A8A8A;
+ }
+
+ .type-head-search {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 8px;
+ }
+
+
+ .frame-kategori {
+    width: 240px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 16px;
+    border-style: ridge;
+    border-color: #D4D4D4;
+    }
+
+ .box-chev {
+    width: 24px;
+    height: 24px;
+ }
+
+ .nav-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .green-box {
+   font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fff;
+  background-color: #5cb85f;
+  border: none;
+  padding: 8px 12px;
+  width: 92px;
+  height: 38px;
+ }
