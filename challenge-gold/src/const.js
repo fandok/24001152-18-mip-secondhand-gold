@@ -6,15 +6,14 @@ export const ACCESS_TOKEN =
 
 export const PLACEHOLDER_URL = "https://placehold.co/270x160";
 
-
 export const PRICE_OPTION = {
-    small: { minPrice: 0, maxPrice: 400000 },
-    medium: { minPrice: 400000, maxPrice: 600000 },
-    large: { minPrice: 600000, maxPrice: 0 },
-  };
+  small: { minPrice: 0, maxPrice: 400000 },
+  medium: { minPrice: 400000, maxPrice: 600000 },
+  large: { minPrice: 600000, maxPrice: 0 },
+};
 
-  export const CATEGORY_LIST = {
-    small: "2 - 4 orang",
-    medium: "4 - 6 orang",
-    large: "6 - 8 orang",
-  };
+export const CATEGORY_LIST = {
+  small: "2 - 4 orang",
+  medium: "4 - 6 orang",
+  large: "6 - 8 orang",
+};
